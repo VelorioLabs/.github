@@ -24,8 +24,6 @@
 | Project | Description | Stack | Status |
 | :--- | :--- | :--- | :--- |
 | [**LocalDrop**](https://github.com/VelorioLabs/LocalDrop) | 🚀 Ultra-fast local-network peer-to-peer file sharing without third-party servers. | `TypeScript` `Node.js` `WebSockets` `WebRTC` | 🟢 Active |
-| [**Raaga**](https://github.com/VelorioLabs/Raaga) | 🎵 Offline-first, distraction-free modern audio player with local library management. | `TypeScript` `React` `IndexedDB` `Web Audio API` | 🟢 Active |
-| [**FLUXA**](https://github.com/VelorioLabs/FLUXA) | ⚡ Sleek, adaptive media streaming application and feed engine. | `Next.js` `TypeScript` `TailwindCSS` `HLS.js` | 🟢 Active |
 | [**DSA Engine**](https://github.com/VelorioLabs/DSA-Engine) | 🧠 High-performance algorithms suite, step-by-step state engine, and visualizer. | `TypeScript` `Python` `Vite` `Jest` | 🟢 Active |
 
 ---
@@ -37,15 +35,13 @@
 ```mermaid
 mindmap
   root((VelorioLabs Stack))
-    Frontend & Mobile
+    Frontend & Web
       React / Next.js
       TypeScript
-      Flutter / Dart
       Tailwind CSS
     Backend & Systems
       Node.js
       Python
-      Kotlin
       WebSockets / WebRTC
     Data & Infrastructure
       IndexedDB
