@@ -1,0 +1,43 @@
+name: 🚀 Feature Request
+description: Propose a new feature, enhancement, or architectural improvement
+labels: ["enhancement", "proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting an idea to make Velorio Labs projects even better!
+  - type: input
+    id: title
+    attributes:
+      label: Feature Title
+      description: Concise summary of the requested feature
+      placeholder: e.g. Add dark mode waveform visualization to Raaga
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem Statement / Use Case
+      description: Is your feature request related to a problem? What problem does it solve?
+      placeholder: "I am always frustrated when..."
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: Describe the solution you'd like to see
+      placeholder: "Provide a clean toggle in the settings view to..."
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Any alternative solutions or features you've considered?
+  - type: checkboxes
+    id: willing_to_contribute
+    attributes:
+      label: Contribution
+      options:
+        - label: I would be interested in contributing code to implement this feature!

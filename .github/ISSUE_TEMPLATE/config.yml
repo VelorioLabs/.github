@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Velorio Labs Official Portal
+    url: https://veloriolabs.github.io
+    about: Explore live project demos, docs, and news.
+  - name: Security Vulnerability Reporting
+    url: mailto:gowdavarshan466@gmail.com
+    about: Report sensitive security vulnerabilities directly to the maintainers.

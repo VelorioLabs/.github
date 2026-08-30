@@ -1,0 +1,51 @@
+name: 🐛 Bug Report
+description: Create a report to help us fix a problem or unexpected behavior
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this issue! Please provide as much detail as possible.
+  - type: input
+    id: summary
+    attributes:
+      label: Summary
+      description: A clear, concise one-line summary of the bug
+      placeholder: e.g. LocalDrop fails to connect to LAN peers on subnet 192.168.1.x
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: How can we reproduce the issue?
+      placeholder: |
+        1. Start the application with `npm start`
+        2. Click on 'Scan Network'
+        3. Observe error message
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What did you expect to happen?
+      placeholder: "The peer should be discovered within 2 seconds."
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment Info
+      description: OS version, browser, Node/runtime version, etc.
+      value: |
+        - OS: [e.g. Windows 11 / macOS / Ubuntu 22.04]
+        - Runtime / Browser: [e.g. Node 20.x, Chrome 125]
+        - Project Version: [e.g. 1.0.0]
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or Screenshots
+      description: Paste any relevant terminal logs or drag-and-drop screenshots here.

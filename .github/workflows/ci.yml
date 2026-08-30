@@ -1,0 +1,24 @@
+name: Org Quality & Linter
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    name: Markdown & Template Validation
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Validate Markdown and Configs
+        run: |
+          echo "Validating VelorioLabs community standards..."
+          test -f CODE_OF_CONDUCT.md
+          test -f CONTRIBUTING.md
+          test -f SECURITY.md
+          test -f LICENSE
+          echo "All community health documents verified!"
