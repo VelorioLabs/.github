@@ -1,52 +1,48 @@
-# Contributing to Velorio Labs
+# Contributing to VelorioLabs
 
-Thank you for your interest in contributing to Velorio Labs! We build tools and experimental software out in the open, and community contributions are a huge part of our ecosystem.
-
----
-
-## 🛠️ Getting Started
-
-1. **Find an Issue**: Browse open issues across [VelorioLabs repositories](https://github.com/orgs/VelorioLabs/repositories) labeled `good first issue` or `help wanted`.
-2. **Discuss First**: For major changes or new features, open an issue or discussion first so we can align on design and goals.
-3. **Fork & Branch**:
-   - Fork the repository to your own GitHub account.
-   - Create a feature branch: `git checkout -b feature/amazing-improvement` or `fix/issue-description`.
+Thank you for your interest in contributing to **VelorioLabs** open-source projects! We welcome contributions from developers, researchers, and security analysts of all skill levels.
 
 ---
 
-## 💻 Development Workflow
-
-1. **Branch Naming**:
-   - `feature/<name>` for new features
-   - `fix/<name>` for bug fixes
-   - `docs/<name>` for documentation updates
-   - `refactor/<name>` for code refactoring
-2. **Code Standards**:
-   - Write clean, type-safe code (TypeScript, Python, Go, etc.).
-   - Follow project linting and formatting rules (`npm run lint`, `prettier`, `ruff`, etc.).
-   - Add unit tests for bug fixes and new features.
-3. **Commit Messages**:
-   We recommend the [Conventional Commits](https://www.conventionalcommits.org/) convention:
-   - `feat: add lan peer discovery via udp multicast`
-   - `fix: resolve memory leak in audio playback buffer`
-   - `docs: update installation instructions in readme`
-   - `test: add unit tests for graph traversal algorithms`
+## 📜 Code of Conduct
+We are committed to providing a welcoming, inclusive, and harassment-free environment for everyone. Please treat all community members with respect and professionalism.
 
 ---
 
-## 🚀 Submitting a Pull Request
+## 🛠️ How to Contribute
 
-1. Ensure your branch is rebased on the latest `main`.
-2. Ensure all tests and linter checks pass locally.
-3. Submit a Pull Request targeting the `main` branch.
-4. Fill out the provided Pull Request template completely.
-5. Link any related issues using keywords like `Fixes #12` or `Closes #34`.
-6. A maintainer will review your PR and provide feedback promptly.
+1. **Fork the Repository**: Click the 'Fork' button at the top right of the GitHub repository.
+2. **Clone your Fork**:
+   ```bash
+   git clone https://github.com/<your-username>/<repo-name>.git
+   cd <repo-name>
+   ```
+3. **Create a Feature Branch**:
+   ```bash
+   git checkout -b feat/your-awesome-feature
+   ```
+4. **Make Changes & Test**: Ensure all unit tests and linting pass:
+   ```bash
+   pytest tests/  # or python -m unittest discover -s tests
+   ```
+5. **Commit with Meaningful Messages**: Follow conventional commits:
+   - `feat: add real-time stream encryption`
+   - `fix: resolve WebSocket reconnect timeout`
+   - `docs: update API usage guidelines`
+6. **Push and Submit a Pull Request (PR)**:
+   ```bash
+   git push origin feat/your-awesome-feature
+   ```
+   Open a PR against the `main` branch with a clear description of your changes.
 
 ---
 
-## 📜 Community & Conduct
+## 🧪 Development Standards
+- Maintain clean, self-documenting code with informative docstrings.
+- Ensure 100% test pass rate for all pull requests.
+- Avoid introducing heavy unvetted external dependencies.
 
-All contributors are expected to uphold our [Code of Conduct](CODE_OF_CONDUCT.md).
+---
 
-Have questions? Feel free to start a GitHub Discussion or reach out at **gowdavarshan466@gmail.com**.
+## 📬 Questions & Community
+Join our development discussions or open an Issue on GitHub for questions, feature requests, or bug reports.

@@ -1,26 +1,26 @@
 # Security Policy
 
-## Supported Versions
+## 🛡️ Supported Versions
 
-We actively support and provide security patches for the latest release of each repository in the VelorioLabs organization.
+We actively maintain and provide security patches for the latest versions of our software.
 
-| Project | Supported Versions |
-| :--- | :--- |
-| LocalDrop | `>= 1.0.0` |
-| Raaga | `>= 1.0.0` |
-| FLUXA | `>= 1.0.0` |
-| DSA-Engine | `>= 1.0.0` |
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.x / 2.x | :white_check_mark: |
+| < 1.0   | :x:                |
 
 ---
 
-## Reporting a Vulnerability
+## 🚨 Reporting a Vulnerability
 
-The Velorio Labs team takes security issues seriously. If you discover a vulnerability or security risk in any of our projects:
+If you discover a security vulnerability or sensitive bug within any **VelorioLabs** project:
 
-1. **DO NOT** create a public GitHub issue.
-2. Email full details, steps to reproduce, and potential impact directly to:
-   📧 **gowdavarshan466@gmail.com**
-3. We will acknowledge receipt within 48 hours and work on a fix or mitigation promptly.
-4. Once resolved, we will publish a security advisory and credit your responsible disclosure (if desired).
+1. **Do NOT** disclose it publicly via GitHub Issues, public tweets, or forums.
+2. Please send a detailed vulnerability report privately to:
+   📧 **`security@velorio.io`** or open a [GitHub Private Vulnerability Advisory](https://github.com/VelorioLabs).
+3. Include:
+   - Steps to reproduce the issue.
+   - Proof-of-concept (PoC) code or requests.
+   - Potential impact and recommended mitigations.
 
-Thank you for keeping Velorio Labs and our users secure!
+We will acknowledge receipt within **48 hours** and provide regular progress updates toward a fix and coordinated disclosure.
